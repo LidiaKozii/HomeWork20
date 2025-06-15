@@ -1,0 +1,124 @@
+/* Загальні стилі для всього тіла сторінки */
+body {
+    font-family: Arial, sans-serif; /* Простий, читабельний шрифт */
+    line-height: 1.6; /* Міжрядковий інтервал */
+    margin: 0; /* Прибираємо стандартні відступи */
+    padding: 0; /* Прибираємо стандартні відступи */
+    background-color: #f4f4f4; /* Світло-сірий фон */
+    color: #333; /* Темно-сірий колір тексту */
+}
+
+/* Стилі для основного контейнера, що центрує вміст */
+.container {
+    max-width: 960px; /* Максимальна ширина контейнера */
+    margin: 20px auto; /* Відступи зверху/знизу 20px, автоматичні з боків для центрування */
+    background: #fff; /* Білий фон для контейнера */
+    padding: 20px; /* Внутрішні відступи */
+    border-radius: 8px; /* Заокруглені кути */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Легка тінь */
+}
+
+/* Стилі для навігаційного меню */
+#main-nav ul {
+    list-style: none; /* Прибираємо маркери списку */
+    padding: 0; /* Прибираємо стандартні відступи */
+    text-align: center; /* Вирівнювання тексту по центру */
+    background: #333; /* Темний фон меню */
+    padding: 10px 0; /* Внутрішні відступи зверху/знизу */
+    border-radius: 5px; /* Заокруглені кути */
+    margin-bottom: 20px; /* Відступ знизу */
+}
+
+#main-nav ul li {
+    display: inline; /* Елементи списку в одному рядку */
+    margin: 0 15px; /* Відступи між пунктами меню */
+}
+
+#main-nav ul li a {
+    color: white; /* Колір тексту посилань */
+    text-decoration: none; /* Прибираємо підкреслення */
+    font-weight: bold; /* Жирний шрифт */
+}
+
+#main-nav ul li a:hover {
+    text-decoration: underline; /* Підкреслення при наведенні */
+}
+
+/* Стилі для заголовків секцій */
+h1, h2, h3, h4, h5, h6 {
+    color: #0056b3; /* Синій колір для заголовків */
+    text-align: center; /* Центрування заголовків */
+    margin-top: 20px; /* Відступ зверху */
+    margin-bottom: 15px; /* Відступ знизу */
+}
+
+/* Стилі для зображень */
+.profile-img {
+    display: block; /* Зображення як блочний елемент */
+    margin: 0 auto 15px auto; /* Центрування зображення та відступ знизу */
+    border-radius: 50%; /* Кругле зображення */
+    border: 3px solid #007bff; /* Рамка навколо зображення */
+    width: 180px; /* Фіксована ширина */
+    height: 180px; /* Фіксована висота */
+    object-fit: cover; /* Обрізати зображення, щоб воно заповнило простір */
+}
+
+.gallery-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%; /* Зображення не буде ширшим за свій контейнер */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* Стилі для абзаців */
+p {
+    margin-bottom: 10px; /* Відступ знизу абзацу */
+    text-align: justify; /* Вирівнювання тексту по ширині */
+}
+
+/* Стилі для списків */
+ul {
+    margin-left: 20px; /* Відступ зліва для елементів списку */
+    list-style-type: disc; /* Маркери у вигляді кіл */
+}
+
+ul li {
+    margin-bottom: 5px; /* Відступ знизу для кожного елемента списку */
+}
+
+/* Стилі для strong і em */
+strong {
+    font-weight: bold;
+    color: #333;
+}
+
+em {
+    font-style: italic;
+    color: #555;
+}
+
+/* Стилі для горизонтальної лінії */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Стилі для посилань у контенті */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для секції контактів */
+.contact-info {
+    text-align: center;
+}
